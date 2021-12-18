@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Nexa Script Light;
+    src:
+            url("images/nexa_script_light.otf") format("opentype");
+            url('nexa_script_light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+            url('images/nexa_script_light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+@font-face {
+    font-family: Fahkwand Light;
+    src: url("images/Fahkwang-Light.ttf") format("opentype");
+}
+html,body {
+    width: 100%;
+    /*height: 1600px;*/
+    font-family: 'Open Sans', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 450px;
+    background-image: url(images/bg_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid #ff6c14;
+    position: relative;
+}
+header h2 {
+
+    font-family: Nexa Script Light, serif ;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 48px;
+    padding-top: 60px;
+    /*margin-top: 60px;*/
+}
+.shop50 {
+    /*margin-top: 100px;*/
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 66px;
+    font-weight: lighter;
+}
+.shipping {
+    padding-top: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.sign {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size:  21px;
+    height: 55px;
+    width: 355px;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    background-color: #ff6c14;
+    padding-bottom: 20px;
+    position: relative;
+    top: 25px;
+}
+.sign a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+}
+.sign a:hover{
+    color: black;
+}
+
+
+main h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #898989;
+    text-align: center;
+    margin-top: 90px;
+    padding-bottom: 60px;
+
+}
+.gallery {
+    margin: auto;
+    width: 1260px;
+    height: 620px;
+}
+.girl {
+    padding: 5px;
+}
+.main {
+    height: 880px;
+    width: 100%;
+    background-color: white;
+    padding-top: 60px;
+}
+.app {
+    position: relative;
+    padding-top: 30px;
+    height: 80px;
+    width: 100%;
+    background-color: #ff6c14;
+    color: white;
+    text-align: center;
+}
+.app a {
+    color: #ffa772;
+    text-align: right;
+}
+.appImg {
+    top: 10px;
+    left:   60%;
+    position: absolute;
+    padding-top: 10px;
+    text-align: right;
+}
+.bottom{
+    width: 100%;
+    height: 110px;
+    background-color: #211f20;
+}
+.bottom ul {
+    padding-top: 50px;
+    padding-left: 255px;
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+}
+.bottom li {
+    color: #7a7979;
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+.bottom a {
+    color: #504e4f;
+    text-decoration: none;
+}
+.bottom a:hover {
+    color: white;
+}
+
+/*.social {*/
+/*    background-color: #211f20;*/
+/*    display: inline-block;*/
+/*    float: right;*/
+/*}*/
